@@ -1,5 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
+from requirements
 
 st.title("Aplikasi Sederhana Kalkulator, Konversi Suhu, dan Fibonacci")
 st.write("Pilih salah satu menu di bawah ini untuk menggunakan aplikasi.")
@@ -59,3 +60,5 @@ elif selected == "Fibonacci":
             fib_sequence.append(a)
             a, b = b, a + b
         st.write(f"Deret Fibonacci: {fib_sequence}")
+
+        
