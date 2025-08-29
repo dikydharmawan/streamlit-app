@@ -1,6 +1,5 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from requirements
 
 st.title("Aplikasi Sederhana Kalkulator, Konversi Suhu, dan Fibonacci")
 st.write("Pilih salah satu menu di bawah ini untuk menggunakan aplikasi.")
